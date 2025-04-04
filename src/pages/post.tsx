@@ -1,7 +1,7 @@
 import PostAdForm from "../components/PostAdForm";
 
-const post = () => {
+const Post = () => {
   return <PostAdForm />;
 };
 
-export default post;
+export default Post;
