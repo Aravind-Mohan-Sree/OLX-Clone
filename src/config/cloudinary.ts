@@ -2,7 +2,7 @@ import { Cloudinary } from "@cloudinary/url-gen";
 
 const cloudinary = new Cloudinary({
   cloud: {
-    cloudName: "dmpbjzzuh",
+    cloudName: import.meta.env.VITE_CLOUDINARY_CLOUD_NAME,
   },
   url: {
     secure: true,
